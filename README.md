@@ -1,3 +1,8 @@
+[![Code Climate](https://codeclimate.com/github/phillipp-oliveira/instagramm/badges/gpa.svg)](https://codeclimate.com/github/phillipp-oliveira/instagramm)
+[![Test Coverage](https://codeclimate.com/github/phillipp-oliveira/instagramm/badges/coverage.svg)](https://codeclimate.com/github/phillipp-oliveira/instagramm/coverage)
+
+
+
 # README
 
 This README would normally document whatever steps are necessary to get the
