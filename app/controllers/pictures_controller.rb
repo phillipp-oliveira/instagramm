@@ -26,7 +26,7 @@ class PicturesController < ApplicationController
   end
 
   def update
-    if @pic.update?(pic_params)
+    if @pic.update(pic_params)
       redirect_to @pic, notice: "Picture was updated!"
     else
       render 'edit'
@@ -36,7 +36,7 @@ class PicturesController < ApplicationController
   private
 
   def pic_params
-    params.require(:picture).permit(:title, :description)
+    params.require(:picture).permit(:image, :title, :description)
   end
 
   def find_pic
